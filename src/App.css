@@ -1,34 +1,102 @@
-.App {
-  text-align: center;
+/* This is the tiled background image for the site */
+body {
+  background: rgb(199, 199, 219);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 199, 219, 1) 0%,
+    rgba(191, 244, 255, 1) 50%,
+    rgba(242, 255, 243, 1) 100%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* This changes the padding, margin, and color of the main content boxes within the site */
+.content {
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  align-content: center;
+  border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contentPortfolio {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #e8f0ef;
+  align-content: center;
+  border-radius: 25px;
+}
+/* This changes the image padding and width of images on the site for contistancy */
+.portrait {
+  display: block;
+  padding: 1rem;
+  width: 12rem;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card {
+  margin-bottom: 20px;
+}
+/* This changes the color and font-face of the headers used within the main content boxes */
+h1 {
+  color: #4aaaa5;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+}
+
+/* This changes the color and text of the main navigation text header */
+h2 {
+  color: #bcb4c4;
+  font-family: "Staatliches", cursive;
+}
+
+h5 {
+  color: #2d2327;
+  font-family: "Staatliches", cursive;
+}
+/* Changes the font and color of the button on the contact page */
+.btn {
   color: white;
+  background-color: #45364b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+  transition: 0.5s ease;
+  margin: auto;
+  border: none;
+}
+
+/* Changes the color of the button on the Contact page when hovering over it */
+.btn:hover {
+  transition: 0.5s ease;
+  background-color: teal;
+  font-size: large;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* This is the attributes for the footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #2d2327;
+  border-top: #bcb4c4 solid;
+  border-width: 5px;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-footer {
+/* footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -36,4 +104,4 @@ footer {
   background-color: red;
   color: white;
   text-align: center;
-}
+} */
