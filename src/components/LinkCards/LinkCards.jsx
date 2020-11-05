@@ -2,7 +2,7 @@ import React from 'react';
 
 function LinkCards(props) {
     return (
-        <button type="button" className="btn btn-secondary"><a rel="noreferrer" target="_blank" href={props.linkthis}>{props.linkTitle}</a></button>
+        <a rel="noreferrer" target="_blank" href={props.linkthis}><button type="button" className="btn btn-secondary">{props.linkTitle}</button></a>
     );
 }
 

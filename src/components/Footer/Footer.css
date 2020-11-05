@@ -1,0 +1,14 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #2d2327;
+  border-top: #bcb4c4 solid;
+  font-family: "Staatliches", cursive;
+  border-width: 5px;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}

@@ -1,6 +1,10 @@
 import React from 'react';
 import Card from "../Card/Card";
 import LinkCards from "../LinkCards/LinkCards";
+import RubbishRumble from "../../assets/Preview4.png";
+import CityZen from "../../assets/CityZenDemo.png";
+import Planner from "../../assets/DailyPlannerDemo.png";
+import Tracker from "../../assets/employeeTrackerDemo.png";
 
 function Portfolio() {
     return (
@@ -15,7 +19,7 @@ function Portfolio() {
 
         <div className="row">
             <Card title="Rubbish Rumble" 
-            image="" 
+            image={RubbishRumble}  
             content= "A single player battle RPG where you create your own list of
                 characters to them battle an enemy fighter. Allows individual
                 users to create characters attached to their name that level up
@@ -26,7 +30,7 @@ function Portfolio() {
                 github="https://github.com/SamiSully/Rubbish-Rumble" 
                 demo="http://rubbishrumble.herokuapp.com/" />
             <Card title="CityZen" 
-            image="" 
+            image={CityZen}
             content= "An application using two APIs, Realtor and Adzuna, for the user
                 to search for a new job and housing at the same time. It is
                 built so the user can search where they would like to live, and
@@ -36,7 +40,7 @@ function Portfolio() {
                 github="https://github.com/rajdeep24/CityZen" 
                 demo="https://rajdeep24.github.io/CityZen/"/>
             <Card title="Day Planner" 
-            image="" 
+            image={Planner} 
             content= "A single page javascript and jquery page that allows you to
                 record tasks based on each hour. It generates the timeblocks
                 dynamically and updates based on the hour in order to mark past
@@ -45,7 +49,7 @@ function Portfolio() {
                 github="https://github.com/SamiSully/Daily-Task-Planner" 
                 demo="https://samisully.github.io/Daily-Task-Planner/"/>
             <Card title="Employee Manager" 
-            image="" 
+            image={Tracker} 
             content= "A command line application that lets you add employees, roles,
             and departments, while also updating their information or
             deleting them from the system, using Node.js, MySql, and
@@ -53,8 +57,7 @@ function Portfolio() {
             There is no live demo since it is a command line application,
             but you can download it from github and use it on your own
             machine!" 
-            github="https://github.com/SamiSully/Full-Employee-Tracker" 
-            demo="https://github.com/SamiSully/Full-Employee-Tracker"/>
+            github="https://github.com/SamiSully/Full-Employee-Tracker" />
         </div>
         </div>
     );
