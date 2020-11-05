@@ -3,13 +3,13 @@ import icon from "../../assets/icon.png";
 
 function Home() {
     return (
-        <div class="container content">
+        <div className="container content">
       <h1>About Me</h1>
       <hr />
       <img
         src={icon}
-        class="img-fluid float-left portrait"
-        alt="A photo of me, Sami Sully"
+        className="img-fluid float-left portrait"
+        alt="Sami Sully"
       />
       <p>
         Hello! I'm Sami, an artist and aspiring web developer from Washington

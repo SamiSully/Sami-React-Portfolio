@@ -1,15 +1,3 @@
-/* This is the tiled background image for the site */
-body {
-  background: rgb(199, 199, 219);
-  background: linear-gradient(
-    90deg,
-    rgba(199, 199, 219, 1) 0%,
-    rgba(191, 244, 255, 1) 50%,
-    rgba(242, 255, 243, 1) 100%
-  );
-}
-
-/* This changes the padding, margin, and color of the main content boxes within the site */
 .content {
   padding: 1rem;
   margin: auto;
@@ -58,18 +46,25 @@ h5 {
 .btn {
   color: white;
   background-color: #45364b;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Staatliches", cursive;
   padding: 1rem;
   transition: 0.5s ease;
+  width: 200px;
+  height: 50px;
   margin: auto;
   border: none;
 }
 
 /* Changes the color of the button on the Contact page when hovering over it */
 .btn:hover {
+  color: white;
   transition: 0.5s ease;
   background-color: teal;
   font-size: large;
+}
+
+a {
+  color: white;
 }
 
 .center {
@@ -86,6 +81,7 @@ footer {
   width: 100%;
   background-color: #2d2327;
   border-top: #bcb4c4 solid;
+  font-family: "Staatliches", cursive;
   border-width: 5px;
   text-align: center;
   margin-top: 10px;
@@ -96,6 +92,7 @@ footer {
   color: #61dafb;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 /* footer {
   position: fixed;
   left: 0;

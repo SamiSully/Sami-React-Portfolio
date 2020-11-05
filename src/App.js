@@ -10,20 +10,19 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div>
+      <Router>
         <Navbar />
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route path="/" component={Errorpage} />
-          </Switch>
-        </Router>
-      </div>
-      <footer>
-        <Footer />
-      </footer>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route path="/" component={Errorpage} />
+        </Switch>
+
+        <footer>
+          <Footer />
+        </footer>
+      </Router>
     </div>
   );
 }

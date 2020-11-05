@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
 .navbar {
   margin-bottom: 20px;
   background-color: #45364b;
+  font-family: "Staatliches", cursive;
 }

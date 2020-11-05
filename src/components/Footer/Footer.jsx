@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
             
-  <span class="navbar-brand mb-0 h1">© Sami Sully</span>
+  <span className="navbar-brand mb-0 h1">© Sami Sully</span>
 
     );
 }
