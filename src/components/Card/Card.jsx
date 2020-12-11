@@ -5,7 +5,7 @@ function Card(props) {
         <div className="col-md-6">
           <div className="card text-center">
             <div className="card-header">
-              <h5>{props.title}</h5>
+              <h4>{props.title}</h4>
             </div>
             <div className="card-body">
               <img

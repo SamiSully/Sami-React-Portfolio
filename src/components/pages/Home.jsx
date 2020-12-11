@@ -21,9 +21,8 @@ function Home() {
         current lifestyle and passions.
       </p>
       <p>
-        I'm currently at the tail end of finishing up a Full Stack Coding Bootcamp 
-        at Georgia Tech and will be graduating in mid November! I have a strong 
-        passion for front-end web design creating interactive, aesthetically 
+        I've recently graduated a Full Stack Coding Bootcamp and am thrilled to dive into exciting new projects! 
+        I thrive when I am consistantly challenged and strive to create interactive, aesthetically 
         pleasing sites with great user experience. I'm also currently open for 
         freelance work, so if you've got something in mind, dont hesitate to reach out!
       </p>

@@ -4,20 +4,21 @@ import LinkCards from "../LinkCards/LinkCards";
 import RubbishRumble from "../../assets/Preview4.png";
 import CityZen from "../../assets/CityZenDemo.png";
 import Planner from "../../assets/DailyPlannerDemo.png";
-import Tracker from "../../assets/employeeTrackerDemo.png";
+import Dungeons from "../../assets/onlydungeonsDEMO.png";
+import "./portfolio.css"
 
 function Portfolio() {
     return (
         <div>
             <div className="row justify-content-center">
                 <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                  <LinkCards linkTitle="Resume" linkthis="https://drive.google.com/file/d/1OGk8i693iF25Xjkkt_k6_YJMKpiU8Eg5/view?usp=sharing"/>
+                  <LinkCards linkTitle="Resume" linkthis="https://drive.google.com/file/d/1KtugDSoh3IP6Fzg9U396sB3G-8rrKMSO/view?usp=sharing"/>
                   <LinkCards linkTitle="LinkedIn" linkthis=""/>
                   <LinkCards linkTitle="Github" linkthis="https://github.com/SamiSully"/>
                 </div>
             </div>
 
-        <div className="row">
+        <div className="row contain">
             <Card title="Rubbish Rumble" 
             image={RubbishRumble}  
             content= "A single player battle RPG where you create your own list of
@@ -38,7 +39,7 @@ function Portfolio() {
                 rental properties in the area that they could ptentially afford
                 with that jobs salary." 
                 github="https://github.com/rajdeep24/CityZen" 
-                demo="https://rajdeep24.github.io/CityZen/"/>
+                demo="https://rajdeep24.github.io/CityZen/" />
             <Card title="Day Planner" 
             image={Planner} 
             content= "A single page javascript and jquery page that allows you to
@@ -48,16 +49,14 @@ function Portfolio() {
                 future events in another color for easier readability." 
                 github="https://github.com/SamiSully/Daily-Task-Planner" 
                 demo="https://samisully.github.io/Daily-Task-Planner/"/>
-            <Card title="Employee Manager" 
-            image={Tracker} 
-            content= "A command line application that lets you add employees, roles,
-            and departments, while also updating their information or
-            deleting them from the system, using Node.js, MySql, and
-            Inquirer.
-            There is no live demo since it is a command line application,
-            but you can download it from github and use it on your own
-            machine!" 
-            github="https://github.com/SamiSully/Full-Employee-Tracker" />
+            <Card title="Only Dungeons" 
+            image={Dungeons} 
+            content= "An application to connect tabletop gaming players, with game masters. 
+            It allows both players and game masters to create an account and browse other games, 
+            while allowing game masters to set their own chat, contact info, and playlist to their page. This project was built using HTML, CSS, Materialize CSS, Node, Express, Javascript, ThreeJS and React"
+            
+            github="https://github.com/SamiSully/onlydungeons2" 
+            demo="https://onlydungeons.herokuapp.com/"/>
         </div>
         </div>
     );
