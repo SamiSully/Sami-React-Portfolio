@@ -19,6 +19,14 @@ function Portfolio() {
             </div>
 
         <div className="row contain">
+        <Card title="Only Dungeons" 
+            image={Dungeons} 
+            content= "An application to connect tabletop gaming players, with game masters. 
+            It allows both players and game masters to create an account and browse other games, 
+            while allowing game masters to set their own chat, contact info, and playlist to their page. This project was built using HTML, CSS, Materialize CSS, Node, Express, Javascript, ThreeJS and React"
+            
+            github="https://github.com/SamiSully/onlydungeons2" 
+            demo="https://onlydungeons.herokuapp.com/"/>
             <Card title="Rubbish Rumble" 
             image={RubbishRumble}  
             content= "A single player battle RPG where you create your own list of
@@ -49,14 +57,6 @@ function Portfolio() {
                 future events in another color for easier readability." 
                 github="https://github.com/SamiSully/Daily-Task-Planner" 
                 demo="https://samisully.github.io/Daily-Task-Planner/"/>
-            <Card title="Only Dungeons" 
-            image={Dungeons} 
-            content= "An application to connect tabletop gaming players, with game masters. 
-            It allows both players and game masters to create an account and browse other games, 
-            while allowing game masters to set their own chat, contact info, and playlist to their page. This project was built using HTML, CSS, Materialize CSS, Node, Express, Javascript, ThreeJS and React"
-            
-            github="https://github.com/SamiSully/onlydungeons2" 
-            demo="https://onlydungeons.herokuapp.com/"/>
         </div>
         </div>
     );
